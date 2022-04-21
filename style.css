@@ -74,10 +74,12 @@ a{
     height: 220px ;
     border-radius: 15px;
     box-shadow:#100c0d  5px 5px 5px;
+    margin-right: 20px;
 }
 
 .sobreMim .texto{
-    margin-left: 5vh;
+    line-height: 20px;
+    text-align: left;
 }
 
 .objetivo {
@@ -191,6 +193,24 @@ footer ul{
         
     }
 
+    .objetivo{
+        text-align: left;
+    }
+
+    .formacoes ul{
+        text-align: center;
+    }
+
+    .habilidades{
+        margin-top: 10vh;
+        
+    }
+
+    .habilidades h2{
+        font-size: 28px;
+        
+    }
+
     .sobreMim .texto{
         margin-top: 5vh ;
     }
@@ -202,6 +222,90 @@ footer ul{
     .imgcarrosel{
         width: 50vh;
     }
+
+    footer p{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 400px) and (max-width:896px){
+
+    header{
+        height: 100px;
+    }
+
+   header h1{
+       font-size: 40px;
+   }
+    .sobreMim{
+        flex-direction: column;
+        
+    }
+
+    .objetivo{
+        text-align: left;
+    }
+
+    .formacoes ul{
+        text-align: center;
+        margin-left: -40px;
+        margin-right: -10px;
+        line-height: 30px;
+    }
+
+    .sobreMim .texto{
+        margin-top: 5vh ;
+    }
+
+    .texto h2{
+        text-align: center;
+    }
+
+    .imgcarrosel{
+        width: 50vh;
+    }
+
+
+}
+
+@media only screen and (min-width: 390px) and (max-width:844px){
+    header{
+        height: 100px;
+    }
+
+   header h1{
+       font-size: 35px;
+   }
+    .sobreMim{
+        flex-direction: column;
+        
+    }
+
+    .objetivo{
+        text-align: left;
+        line-height: 20px;
+    }
+
+    .formacoes ul{
+        text-align: center;
+        margin-left: -40px;
+        margin-right: -10px;
+        line-height: 30px;
+    }
+
+    .sobreMim .texto{
+        margin-top: 5vh ;
+    }
+
+    .texto h2{
+        text-align: center;
+    }
+
+    .imgcarrosel{
+        width: 50vh;
+    }
+
 
 }
 
